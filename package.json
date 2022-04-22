@@ -1,5 +1,5 @@
 {
-  "homepage": "https://elliotjuniper.github.io/",
+  "homepage": "https://mickeydribble.github.io/",
   "name": "cat-app",
   "version": "0.1.0",
   "private": true,
@@ -46,6 +46,7 @@
     ]
   },
   "devDependencies": {
-    "@faker-js/faker": "^6.1.2"
+    "@faker-js/faker": "^6.1.2",
+    "gh-pages": "^3.2.3"
   }
 }
