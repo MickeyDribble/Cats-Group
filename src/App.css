@@ -90,6 +90,9 @@ body {
   background-color: white;
   font-family: 'Lobster', cursive;
   border: 6px solid darkslategray;
+  height: 400px;
+  overflow-y: scroll;
+  scrollbar-width: thin;
 }
 
 .modal-title {
