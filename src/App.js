@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 import { BiShoppingBag } from "react-icons/bi";
 import './App.css';
 import Navbar from "./Navbar"
