@@ -45,11 +45,12 @@ const Data = ({handleAddProduct}) => {
       const imgs = await fetchImages();
       let data = fetchData();
       data = data.map((cat, i) => {
-        cat.image = imgs[i].url;
+        cat.image = imgs[i]?.url;
         cat.id = i;
-        return cat;
+        return cat;  
       });
-      setCats(data);
+      setCats(data)
+      
     })();
   }, []);
 
