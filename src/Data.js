@@ -12,7 +12,7 @@ const Data = ({handleAddProduct}) => {
   const fetchData = () => {
     const array = [];
 
-    for (let i = 0; i < 15; i++) {
+    for (let i = 0; i < 10; i++) {
       const name = faker.name.firstName();
       const price = faker.commerce.price(5, 20);
       const species = faker.animal.cat();
@@ -27,7 +27,7 @@ const Data = ({handleAddProduct}) => {
   const fetchImages = async () => {
     try {
       const response = await fetch(
-        "https://api.thecatapi.com/v1/images/search?limit=20"
+        "https://api.thecatapi.com/v1/images/search?limit=10"
       );
       if (!response.ok) {
         throw new Error(response.statusText);
